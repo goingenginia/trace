@@ -70,7 +70,7 @@ body {
 }
 
 .main__vsl--copy--top {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   line-height: 2;
   text-align: center;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .main__vsl--copy--btm {
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 28px;
 }
@@ -125,8 +125,6 @@ body {
 }
 
 .main__vsl--dtl--cnt--btn {
-  /* height: 104px; */
-  /* TODO ①親要素のheight */
   height: auto;
   width: 1028px;
   background-color: #da6b64;
@@ -139,10 +137,7 @@ body {
   font-size: 2.8rem;
   color: #ffffff;
   text-align: center;
-  /* padding-top: 38px; */
-  /* TODO padding-topでcenterに位置付けるのではなく、
-  ①親要素のheightをautoにしてpaddingでcenterを位置付けましょう！ */
-  padding: 32px;
+  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -161,6 +156,11 @@ body {
   width: 214px;
   font-size: 1.1rem;
   margin: 0 auto;
+}
+
+.main__vsl--dtl--icon a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .main__vsl--dtl--icon--twitter {
