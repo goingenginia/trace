@@ -125,7 +125,9 @@ body {
 }
 
 .main__vsl--dtl--cnt--btn {
-  height: 104px;
+  /* height: 104px; */
+  /* TODO ①親要素のheight */
+  height: auto;
   width: 1028px;
   background-color: #da6b64;
   border-radius: 50px;
@@ -137,7 +139,10 @@ body {
   font-size: 2.8rem;
   color: #ffffff;
   text-align: center;
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  /* TODO padding-topでcenterに位置付けるのではなく、
+  ①親要素のheightをautoにしてpaddingでcenterを位置付けましょう！ */
+  padding: 32px;
   box-sizing: border-box;
 }
 
