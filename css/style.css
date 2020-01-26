@@ -49,6 +49,10 @@ body {
   font-size: 1.4rem;
   text-align: center;
 }
+.top__tl--btn--txt--link{
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /* メインビジュアル */
 .main__vsl {
@@ -139,6 +143,11 @@ body {
   text-align: center;
   padding: 30px;
   box-sizing: border-box;
+}
+
+.main__vsl--dtl--cnt--btn--txt--link{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .main__vsl--dtl--cnt--period {
