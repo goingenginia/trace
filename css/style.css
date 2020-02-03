@@ -329,16 +329,11 @@ body {
 }
 
 .main__vsl--midbtm--cnt--pointicon {
-  display: flex;
-  justify-content: space-between;
-  width: 650px;
-  margin: 0 auto;
+  text-align: center;
   font-size: 1.2rem;
   line-height: 1.5;
 }
 .main__vsl--midbtm--cnt--pointicon--img {
-  height: auto;
-  text-align: center;
   display: inline-block;
-  vertical-align: bottom;
+  margin-right: 20px;
 }
