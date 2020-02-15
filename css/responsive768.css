@@ -215,7 +215,6 @@
     text-align: center;
   }
   .main__vsl--mid {
-    /* width: 100%; */
     margin: 40px auto 0;
   }
   .main__vsl--midtop {
@@ -229,7 +228,6 @@
     display: flex;
     width: 860px;
     max-width: calc(100% - 40px);
-    height: 100px;
     margin: 0 auto;
     position: relative;
   }
@@ -242,12 +240,15 @@
     position: absolute;
     top: 0;
   }
-  .main__vsl--midtop--cnt--title {
-    padding-top: 36px;
-    font-size: 2.8rem;
+  .main__vsl--midtop--cnt--smalltitle {
+    padding: 9px 0;
+    font-size: 2.4rem;
     text-align: center;
-    line-height: 1.2;
+    line-height: 40px;
     margin: 0 auto;
+  }
+  .main__vsl--midtop--cnt--title{
+    display: none;
   }
   .main__vsl--midtop--cnt--right {
     width: 50px;
