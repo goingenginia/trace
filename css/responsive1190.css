@@ -1,7 +1,7 @@
-@media screen and (max-width: 1190px) {
+@media screen and (min-width: 769px) and (max-width: 1190px) {
   html {
     font-size: 62.5%;
-    /* width: 100%; */
+    width: 100%;
   }
 
   body {
@@ -57,6 +57,13 @@
     color: #ffffff;
     text-decoration: none;
   }
+  .top__tl--btn--txt--small,
+  .top__tl--btn--txt--small--link,
+  .top__tl--wrap--small--txt,
+  .top__tl--wrap--small--elp,
+  .top__tl--wrap--small--elp--img {
+    display: none;
+  }
 
   /* メインビジュアル */
   .main__vsl {
@@ -103,7 +110,8 @@
   }
 
   .main__vsl--dtl--cnt {
-    width: 1028px;
+    max-width: 1028px;
+    text-align: center;
     margin: 0 auto;
   }
 
@@ -116,9 +124,8 @@
   }
 
   .main__vsl--dtl--cnt--scd {
+    display: inline-block;
     background-color: #f9f2f4;
-    width: 506px;
-    height: 25px;
     box-sizing: border-box;
     border-radius: 4px;
     margin: 0 auto;
@@ -127,18 +134,18 @@
   .main__vsl--dtl--cnt--scd--txt {
     font-size: 1.44rem;
     color: #c7254e;
-    padding-top: 3.5px;
+    padding: 2px 0;
     text-align: center;
     font-weight: 600;
   }
 
   .main__vsl--dtl--cnt--btn {
     height: auto;
-    /* width: 1028px; */
+    width: 740px;
+    max-width: calc(100% - 160px);
+    margin: 10px auto;
     background-color: #da6b64;
     border-radius: 50px;
-    margin-top: 45px;
-    margin-bottom: 45px;
   }
 
   .main__vsl--dtl--cnt--btn--txt {
@@ -206,7 +213,6 @@
     text-align: center;
   }
   .main__vsl--mid {
-    /* width: 100%; */
     margin: 40px auto 0;
   }
   .main__vsl--midtop {
@@ -219,6 +225,7 @@
   .main__vsl--midtop--cnt {
     display: flex;
     width: 860px;
+    max-width: calc(100% - 40px);
     height: 100px;
     margin: 0 auto;
     position: relative;
@@ -294,6 +301,7 @@
   .main__vsl--midbtm--cnt {
     display: flex;
     width: 860px;
+    max-width: calc(100% - 40px);
     height: 140px;
     margin: 0 auto;
     position: relative;
@@ -326,10 +334,12 @@
 
   .main__vsl--midbtm--cnt--point {
     width: 1170px;
+    max-width: calc(100% - 40px);
     height: 254px;
     background-color: #ffffff;
     border: 2px solid #ebb94d;
     margin: 0 auto;
+    box-sizing: border-box;
   }
 
   .main__vsl--midbtm--cnt--pointicon {
